@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import useTask from '../hooks/useTask'
 import { supabase } from '../supabase/supabase'
+import useTask from '../hooks/useTask'
 
 export default function Login() {
   const [email, setEmail] = useState('')

@@ -31,7 +31,7 @@ export default function TaskList() {
   return (
     <main className="grid sm:grid-cols-3 gap-4 mt-10 ">
       <div className="sm:col-span-3 ">
-        <h3 className=" text-center sm:text-2xl border-2 border-indigo-600 border-dashed uppercase font-bold tracking-wider mb-2 mt-10">
+        <h3 className="lg:w-fit px-5 mx-auto text-center sm:text-2xl border-2 border-indigo-600 border-dashed uppercase font-bold tracking-wider mb-2 mt-10">
           Lista de las tareas
         </h3>
         <button

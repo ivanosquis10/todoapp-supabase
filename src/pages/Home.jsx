@@ -1,14 +1,13 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import TaskForm from '../components/TaskForm'
 import TaskList from '../components/TaskList'
-import useTask from '../hooks/useTask'
 import { supabase } from '../supabase/supabase'
+// import useTask from '../hooks/useTask'
 
 export default function Home() {
   // const [showTasksDone, setShowTasksDone] = useState(false)
-
-  const { toggleTaskDone, showTasksDone:done } = useTask()
+  // const { toggleTaskDone, showTasksDone: done } = useTask()
 
   const navigate = useNavigate()
 
